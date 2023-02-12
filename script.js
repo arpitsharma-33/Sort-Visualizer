@@ -11,13 +11,13 @@ const margin =36;
 const AvailableWidth = myCanvas.width-margin*2;
 const spacing = AvailableWidth/n;
 const colors = [
-    "#023047",
+    "#FF4D4D",
     "#ac46a1",
     "#e63946",
     "#4a7c59",
-    "#ff87ab",
+    "#6f1d1b",
     "#023e8a",
-    "#FF4D4D",
+    "#66E64D",
     "#3c096c",
     "#eca72c",
     "#000000",
@@ -33,7 +33,7 @@ const colors = [
 
 const sockColors = [];
 
-const tweenLength = 28;
+const tweenLength = 22;
 
 for(let i=0; i < n/2; i++){
     const t = i / (n/2 - 1);
@@ -96,7 +96,7 @@ function animate(){
     changed = character.draw(ctx) || changed;
 
 
-    if(new Date().getTime() - startTime > 500 && !changed &&  moves.length > 0){
+    if(new Date().getTime() - startTime > 1500 && !changed &&  moves.length > 0){
         const nextMove = moves.shift();
         const [i,j] = nextMove.indices;
         if(nextMove.type == "swap"){
