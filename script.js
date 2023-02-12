@@ -13,8 +13,7 @@ const spacing = AvailableWidth/n;
 const colors = [
     "#FF4D4D",
     "#ac46a1",
-    "#e63946",
-    "#4a7c59",
+    "#e63946",  
     "#6f1d1b",
     "#023e8a",
     "#66E64D",
