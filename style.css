@@ -6,6 +6,7 @@ body{
 }
 
 h1{
+    text-align: center;
     align-items: center;
     max-width: 100%;
 }
@@ -23,6 +24,7 @@ h1{
 
 @media screen and (max-width : 600px){
     h1{
+        text-align: center;
         align-items: center;
         max-width: 100%;
     }
@@ -39,6 +41,7 @@ h1{
 
 @media screen and (max-width : 400px){
     h1{
+        text-align: center;
         margin-top: 80px;
         align-items: center;
         max-width: 100%;
@@ -56,6 +59,7 @@ h1{
 
 @media screen and (max-width : 350px){
     h1{
+        text-align: center;
         align-items: center;
         max-width: 100%;
     }
@@ -71,6 +75,7 @@ h1{
 }
 @media screen and (max-width : 300px){
     h1{
+        text-align: center;
         align-items: center;
         max-width: 100%;
     }
@@ -87,6 +92,7 @@ h1{
 
 @media screen and (max-width : 250px){
     h1{
+        text-align: center;
         align-items: center;
         max-width: 100%;
     }
@@ -103,6 +109,7 @@ h1{
 
 @media screen and (max-width : 200px){
     h1{
+        text-align: center;
         align-items: center;
         max-width: 100%;
     }
