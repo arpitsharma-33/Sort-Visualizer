@@ -1,4 +1,4 @@
-myCanvas.width=1000;
+myCanvas.width=1100;
 myCanvas.height=450;
 
 const n = 20;
