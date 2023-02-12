@@ -1,7 +1,7 @@
 myCanvas.width=1000;
 myCanvas.height=450;
 
-const n = 26;
+const n = 20;
 const arr=[];
 
 const StringHeight = myCanvas.height*0.35;
