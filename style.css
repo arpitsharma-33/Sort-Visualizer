@@ -115,7 +115,7 @@ h1{
     }
     #myCanvas{
         text-align: center;
-        background-image: url('white.jpg');
+        background-image: url('sky.webp');
         background-position:bottom;
         background-repeat: no-repeat;
         background-attachment: fixed;
