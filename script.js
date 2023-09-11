@@ -33,7 +33,7 @@ const colors = [
 
 const sockColors = [];
 
-const tweenLength = 22;
+const tweenLength = 16;
 
 for(let i=0; i < n/2; i++){
     const t = i / (n/2 - 1);
